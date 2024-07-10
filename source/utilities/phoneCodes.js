@@ -1,0 +1,1 @@
+export const EGphoneCodes = ['12', '11', '10', '15']

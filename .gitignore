@@ -1,0 +1,4 @@
+/node_modules
+/package-lock.json
+/global-bundle.pem
+/mongodb-windows-x86_64-7.0.2-signed

@@ -1,0 +1,1 @@
+export const allowedEmailDomains = ['gmail', 'yahoo', 'outlook']

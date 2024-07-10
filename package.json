@@ -1,0 +1,58 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "restart": "rs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "airlabs": "^7.0.4",
+    "aws-sdk": "^2.1582.0",
+    "axios": "^1.6.2",
+    "bcrypt": "^5.1.1",
+    "cloudinary": "^1.41.0",
+    "connect-timeout": "^1.9.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "firebase-admin": "^12.1.0",
+    "form-data": "^4.0.0",
+    "form-data-encoder": "^4.0.2",
+    "formdata-node": "^6.0.3",
+    "google-auth-library": "^9.1.0",
+    "got": "^14.0.0",
+    "http-status-codes": "^2.3.0",
+    "joi": "^17.11.0",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.43",
+    "mongoose": "^7.6.3",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nanoid": "^5.0.2",
+    "node": "^21.2.0",
+    "node-fetch": "^3.3.2",
+    "node-schedule": "^2.1.1",
+    "nodemailer": "^6.9.7",
+    "nodemon": "^3.1.0",
+    "qrcode": "^1.5.3",
+    "query-string": "^8.1.0",
+    "slugify": "^1.6.6",
+    "socket.io": "^4.7.4",
+    "type-is": "^1.6.18",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "graphql": "^16.8.1"
+  }
+}
